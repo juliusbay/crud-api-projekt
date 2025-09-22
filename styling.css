@@ -1,0 +1,91 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+#messages {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fffbe7;
+    border-radius: 5px;
+}
+
+
+#usersTable {
+    max-width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#usersTable th, #usersTable td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+    font-size: 14px;
+}
+
+#usersTable th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+#usersTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#usersTable tr:hover {
+    background-color: #eaf6ff;
+}
+
+
+#userForm {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+#userForm p {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#userForm input {
+    width: calc(50% - 12px);
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#userForm input:focus {
+    border-color: #4CAF50;
+    outline: none;
+    background-color: #f9fff9;
+}
+
+#userForm button {
+    display: block;
+    margin: 15px 5px 0;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#userForm button:hover {
+    background-color: #45a049;
+}
